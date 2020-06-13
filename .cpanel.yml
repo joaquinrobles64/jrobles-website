@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/jrobufrh/public_html/
     - /bin/cp -r * $DEPLOYPATH
-    - /bin/cp -R arcade $DEPLOYPATH
+    #- /bin/cp -R arcade $DEPLOYPATH
