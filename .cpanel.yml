@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/jrobufrh/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp -R arcade $DEPLOYPATH
