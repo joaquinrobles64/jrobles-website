@@ -22,3 +22,9 @@
   margin: 100px;
   
 }
+
+#pug{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
