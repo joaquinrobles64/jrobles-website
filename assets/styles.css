@@ -1,0 +1,46 @@
+.navbar {
+    height: 4.5em;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.jnavli li{
+    display: inline;
+    padding: 0 0.5em;
+}
+
+#headertext {
+    font-size: 23px;
+}
+
+.jnavlink {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-black {
+    background-color: black;
+}
+
+.icon {
+    width: 50px;
+    transition: transform 0.2s;
+    
+}
+
+.icon:hover {
+    transform: scale(1.25);
+    color: white;
+    
+}
+
+#pug {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
