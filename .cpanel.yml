@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jrobufrh/public_html/
+    - export DEPLOYPATH=/home/jrobufrh/
     - /bin/cp -r * $DEPLOYPATH
