@@ -1,0 +1,12 @@
+/* *****************************
+
+BVAmbient - VanillaJS Particle Background</title>
+Developed by: Bruno Vieira
+
+**************************** */
+
+.bvambient_particle
+{
+	position: absolute;
+	pointer-events: none;
+}

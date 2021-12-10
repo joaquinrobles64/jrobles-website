@@ -23,20 +23,33 @@
     font-size: 20px;
 }
 
+.jnavlink:hover {
+    color: white;
+}
+
 .btn-black {
     background-color: black;
 }
 
+
 .icon {
-    width: 50px;
-    transition: transform 0.2s;
-    
+    width: 3rem;
+    transition: transform 0.2s; 
 }
 
 .icon:hover {
     transform: scale(1.25);
     color: white;
-    
+}
+
+.texticon {
+    width: auto;
+    transition: transform 0.2s; 
+}
+
+.texticon:hover {
+    transform: scale(1.15);
+    color: white;
 }
 
 #pug {

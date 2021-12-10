@@ -1,79 +1,88 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>JR Home</title>
+    <title>JOAQUIN ROBLES</title>
     <link rel="shortcut icon" href="./img/favicon.ico?">
 
     <!-- css -->
-    <link rel="stylesheet" href="./assets/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="./assets/styles.css?v=2.0.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bvambient.css?v=1.0" type="text/css">
+    <link rel="stylesheet" href="css/style.css?v=2.1.0" type="text/css">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 </head>
 
 
-<body>
-    <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                Joaquin/Robles
-            </div>
+<body class="bg-light">
+    <!-- floaty bubbles -->
+    <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh;"></div>
 
+    <!-- 
+        a. mobile:
+            - header like normal
+                = hamburger button on right of header
+                    * dropdown and hopper on right side
+                = home button / logo top left as usual
+
+        b. desktop:
+            left part:
+                - color white and with shadow
+                - static/sticky so it's always there when scrolling right part
+                - if i have sections to the right part then section hopper right dere
+                - links to In and Hub and Resume at bottom
+            
+            right part:
+                - name and job title so "joauin roble s" and "software engirer" under it
+                - about me or whatever
+                - then finally portfolio (look at that one template for clicking portfolio button and having info overlay)
+     -->
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-success sticky-top mb-5">
+        <div class="container-fluid">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav jnavli">
                     <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/joaquinrobles64/" title="Joaquin's LinkedIn">
+                        <a href="assets/joaquinroblesresume.pdf" class="nav-link btn btn-black texticon jnavlink">résumé</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/joaquinrobles64/" title="LinkedIn profile">
                             <img src="img/logos/linkedin.png" alt="linkedin" class="icon">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://github.com/joaquinrobles64" title="Joaquin's Github">
+                        <a href="https://github.com/joaquinrobles64" title="Github profile">
                             <img src="img/logos/github.png" alt="github" class="icon">
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./assets/joaquinroblesresume.pdf" class="nav-link btn btn-black icon jnavlink">CV</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- end navbar -->
+    <!-- /navbar -->
 
-    <section class="section mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Under Construction! Check the navigation bar above for my LinkedIn, Github, and Resume.</h1>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>hi</p>
             </div>
         </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 center">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- bootstrap -->
-    <script src="./assets/jquery-3.0.0.min.js"></script>
-    <script src="./assets/bootstrap.bundle.min.js"></script>
-</body>
-
-
-<footer>
-    <div id="pug">
-        <a href="./pugparty.html"><img src="./img/pug.gif" title="funy dogyy (loud audio + moving images warning)"
-                width="10"></a>
     </div>
-</footer>
 
+    <!-- footer -->
+    <footer>
+        <div id="pug">
+            <a href="./pugparty.html"><img src="./img/pug.gif" title="funy dogyy (loud audio + moving images warning)"
+                    width="10"></a>
+        </div>
+    </footer>
+    <!-- /footer -->
+    
+    <!-- js -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bvambient.js"></script>
+</body>
 </html>
