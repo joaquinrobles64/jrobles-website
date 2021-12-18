@@ -13,76 +13,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 </head>
 
-
 <body class="bg-light">
     <!-- floaty bubbles -->
-    <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh;"></div>
+    <div id="ambient" style="overflow:hidden; position: absolute; width:100%; height:100vh;"></div>
 
-    <!-- 
-        a. mobile:
-            - header like normal
-                = hamburger button on right of header
-                    * dropdown and hopper on right side
-                = home button / logo top left as usual
-
-        b. desktop:
-            left part:
-                - color white and with shadow
-                - static/sticky so it's always there when scrolling right part
-                - if i have sections to the right part then section hopper right dere
-                - links to In and Hub and Resume at bottom
-            
-            right part:
-                - name and job title so "joauin roble s" and "software engirer" under it
-                - about me or whatever
-                - then finally portfolio (look at that one template for clicking portfolio button and having info overlay)
-     -->
-
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-success sticky-top mb-5">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav jnavli">
-                    <li class="nav-item">
-                        <a href="assets/joaquinroblesresume.pdf" class="nav-link btn btn-black texticon jnavlink">résumé</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/joaquinrobles64/" title="LinkedIn profile">
-                            <img src="img/logos/linkedin.png" alt="linkedin" class="icon">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://github.com/joaquinrobles64" title="Github profile">
-                            <img src="img/logos/github.png" alt="github" class="icon">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- /navbar -->
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <p>hi</p>
+            <div class="col-3 shadow px-0 border border-primary">
+                <div class="sticky-top bg-white" style="height: 100vh;">
+                    <h3>JR</h3>
+                    <ul class="navbar-nav jnavli">
+                        <li class="nav-item">
+                            <a href="assets/joaquinroblesresume.pdf" class="nav-link btn btn-black texticon jnavlink">résumé</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/joaquinrobles64/" title="LinkedIn profile">
+                                <img src="img/logos/linkedin.png" alt="linkedin" class="icon">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/joaquinrobles64" title="Github profile">
+                                <img src="img/logos/github.png" alt="github" class="icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col px-0 border border-success">
+                <div class="pl-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti vitae voluptas consequuntur quo tempora eaque, sint nesciunt soluta cumque nisi voluptatum voluptatem, sit inventore nihil, rem a modi repudiandae aut?</p>
+
+                </div>
+                
+                <footer class="text-center bg-success text-white">
+                    <div class="py-2 mb-0">
+                        <p>joaquin robles © 2021</p>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
+    
 
-    <!-- footer -->
-    <footer>
-        <div id="pug">
-            <a href="./pugparty.html"><img src="./img/pug.gif" title="funy dogyy (loud audio + moving images warning)"
-                    width="10"></a>
-        </div>
-    </footer>
-    <!-- /footer -->
+    <div id="pug">
+        <a href="./pugparty.html"><img src="./img/pug.gif" title="silly doggy (warning: loud audio + moving images)" width="10"></a>
+    </div>
     
     <!-- js -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bvambient.js"></script>
+    
+    
+   
 </body>
 </html>
