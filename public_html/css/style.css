@@ -2,6 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
 .sidebar {
     height: 100vh;
 }
